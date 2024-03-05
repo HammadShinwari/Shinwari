@@ -3,6 +3,8 @@ import React, { Component } from 'react'
 // style file import 
 import '../Style/navbar.css'
 
+// Its a Class component
+
 class Navbar extends Component {
 
     state = {clicked: false };
