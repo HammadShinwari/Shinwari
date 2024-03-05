@@ -25,3 +25,142 @@ h1, h2, h3, h4, h5, h6{
 
 
 /* ================= Resposive ================== */
+
+@media (max-width: 1080px){
+
+    /* ================ banner ============== */
+
+    .banner-container{
+        gap: 4vw;
+        padding: 5vw;
+    }
+
+    .b-text-h3{
+        font-size: 32px;
+    }
+
+    .b-text-h1{
+        font-size: 40px;
+    }
+
+    .b-text-h2{
+        font-size: 25px;
+    }
+
+
+    /* ================ about ============== */
+
+    .about-container{
+        gap: 7vw;
+        padding: 5vw;
+    }
+
+    .about-text h2{
+        font-size: 27px;
+    }
+
+    .about-image img{
+        width: 420px;
+    }
+}
+
+@media (max-width: 850px){
+
+    /* ================ banner ============== */
+
+    .banner-container{
+        padding: 6vw;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 5vw;
+    }
+
+    .b-text-h1{
+        padding: 2vh 0;
+    }
+
+    .b-image img{
+        width: 450px;
+    }
+
+    /* ================ about ============== */
+
+    .about-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 8vw 10vw;
+        gap: 3vw;
+    }
+
+    .about-image img{
+        width: 450px;
+    }
+
+}
+
+@media (max-width: 500px){
+    
+    /* ================ banner ============== */
+    
+    .banner-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10vw; 
+        gap: 10vw;
+    }
+
+    .b-text-h3{
+        font-size: 22px;
+    }
+
+    .b-text-h1{
+        font-size: 32px;
+    }
+
+    .b-text-h2{
+        font-size: 22px;
+        padding-bottom: 4vw;
+    }
+
+    .b-image img{
+        width: 340px;
+    }
+
+    /* ================ about ============== */
+
+    .about-container{
+        padding: 10vw;
+    }
+
+    .about-image img{
+        width: 340px;
+    }
+
+}
+
+@media (max-width: 350px){
+    .b-image img{
+        width: 290px;
+    }
+
+    .b-buttons .btn-1 button,
+    .b-buttons .btn-2 button{
+        font-size: 13px;
+    }
+
+    /* ================ about ============== */
+
+    .about-image img{
+        width: 290px;
+    }
+
+    .about-text h2{
+        font-size: 22px;
+    }
+
+}

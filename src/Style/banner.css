@@ -72,23 +72,3 @@
 .b-image img{
     width: 430px;
 }
-
-@media (max-width: 1080px){
-
-    .banner-container{
-        gap: 4vw;
-        padding: 5vw;
-    }
-
-    .b-text-h3{
-        font-size: 32px;
-    }
-
-    .b-text-h1{
-        font-size: 40px;
-    }
-
-    .b-text-h2{
-        font-size: 25px;
-    }
-}
