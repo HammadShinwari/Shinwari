@@ -20,11 +20,12 @@ class Navbar extends Component {
                     <a href="index.html">SHINWARI</a>
                     <div>
                         <ul id='navbar' className={this.state.clicked ? "#navbar active" : "#navbar"}>
-                            <li><a href="index.html" className='active'>Home</a></li>
-                            <li><a href="index.html">About</a></li>
-                            <li><a href="index.html">Services</a></li>
-                            <li><a href="index.html">Portfolio</a></li>
-                            <li><a href="index.html">Contact</a></li>
+                            <li><a href="#" className='active'>Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Skills</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Contact</a></li>
                         </ul>
                     </div>
                     <div id="mobile" onClick={this.handleClick}>

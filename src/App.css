@@ -6,16 +6,19 @@
     line-height: 1.3;
 }
 
+:root{
+    --color-background: #fefefe;
+    --color-purple: #555ed6;
+    --box-shadow: #9ea5ff;
+}
+
 body{
+    width: 100%;
     font-size: 15px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     color: #000000;
-    background: url(./images/body.png) no-repeat center center;
-}
-
-:root{
-    --color-purple: #555ed6;
+    background: var(--color-background) url(./images/body.png) no-repeat center center;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -100,6 +103,32 @@ h1, h2, h3, h4, h5, h6{
         width: 450px;
     }
 
+    /* ================ services ============== */
+
+    .service-text h1{
+        font-size: 5vw;
+    }
+
+    .service-text p{
+        padding: 2vw 13vw;
+    }
+
+    .service-cards{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 7vw 22vw 3vw 22vw;
+    }
+
+    .service-card{
+        padding: 2vw;
+    }
+    
+    .service-card p{
+        padding: 2vw;
+    }
+
 }
 
 @media (max-width: 500px){
@@ -134,11 +163,40 @@ h1, h2, h3, h4, h5, h6{
     /* ================ about ============== */
 
     .about-container{
-        padding: 10vw;
+        padding: 15vw 10vw;
     }
 
     .about-image img{
         width: 340px;
+    }
+
+    /* ================ services ============== */
+
+    .service-text h1{
+        font-size: 7vw;
+    }
+
+    .service-text p{
+        padding: 2vw 5vw;
+    }
+
+    .service-cards{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 7vw 12vw 3vw 12vw;
+        gap: 5vw;
+    }
+
+    .service-card{
+        padding: 5vw 0;
+    }
+
+    .service-card h2{
+        padding: 2vh 0 1vh 0;
+    }
+
+    .service-card p{
+        padding: 2vw 3vw 4vw 3vw;
     }
 
 }
@@ -161,6 +219,21 @@ h1, h2, h3, h4, h5, h6{
 
     .about-text h2{
         font-size: 22px;
+    }
+
+    /* ================ services ============== */
+
+    .service-cards{
+        padding: 7vw;
+    }
+
+    .service-text h1{
+        font-size: 25px;
+    }
+
+    .service-text p{
+        font-size: 14px;
+        padding: 2vw 7vw;
     }
 
 }

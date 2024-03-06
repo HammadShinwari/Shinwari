@@ -26,6 +26,11 @@
     font-size: 28px;
 }
 
+.multiText{
+    color: var(--color-purple);
+    text-transform: capitalize;
+}
+
 .b-buttons{
     padding-top: 2vw;
     display: flex;
