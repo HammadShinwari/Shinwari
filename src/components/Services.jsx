@@ -3,6 +3,9 @@ import React from 'react'
 // style file import 
 import '../Style/services.css'
 
+// animation file import 
+// import 'animate.css'
+
 // image file import
 import Service1 from '../images/service-1.png'
 import Service2 from '../images/service-2.png'
@@ -10,6 +13,7 @@ import Service3 from '../images/service-3.png'
 import Service4 from '../images/service-4.png'
 
 function Services() {
+
   return (
     <>
         <div className="services-container">

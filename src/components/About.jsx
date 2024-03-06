@@ -3,6 +3,9 @@ import React from 'react'
 // style file import 
 import '../Style/about.css'
 
+// animation file import
+import 'animate.css';
+
 // image file import
 import aboutImg from '../images/about.png'
 

@@ -6,6 +6,9 @@ import '../Style/banner.css'
 // image file import
 import bannerImg from '../images/portfolio-banner.png'
 
+// animation file import
+import 'animate.css';
+
 function Banner() {
   return (
     <>
