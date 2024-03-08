@@ -4,7 +4,7 @@ import React from 'react'
 import '../Style/about.css'
 
 // animation file import
-import 'animate.css';
+// import 'animate.css';
 
 // image file import
 import aboutImg from '../images/about.png'

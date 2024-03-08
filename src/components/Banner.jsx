@@ -7,7 +7,7 @@ import '../Style/banner.css'
 import bannerImg from '../images/portfolio-banner.png'
 
 // animation file import
-import 'animate.css';
+// import 'animate.css';
 
 function Banner() {
   return (
