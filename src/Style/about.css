@@ -17,11 +17,12 @@
 .about-text h2{
     font-size: 32px;
     font-weight: 700;
+    color: var(--color-black);
 }
 
 .about-text p{
     font-size: 17px;
-    color: #9c9c9c;
+    color: var(--color-para);
     padding: 3vh 0 4vh 0;
 }
 

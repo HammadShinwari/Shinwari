@@ -13,22 +13,20 @@
     text-transform: uppercase;
     font-weight: 600;
     position: relative;
+    color: var(--color-black);
 }
 
 .b-text-h1{
     font-size: 50px;
     font-weight: 600;
     padding: 1vh 0;
+    color: var(--color-black);
 }
 
 .b-text-h2{
     font-weight: 600;
     font-size: 28px;
-}
-
-.multiText{
-    color: var(--color-purple);
-    text-transform: capitalize;
+    color: var(--color-black);
 }
 
 .b-buttons{

@@ -13,13 +13,14 @@
     font-size: 38px;
     font-weight: 800;
     text-transform: uppercase;
+    color: var(--color-black);
 }
 
 .service-text p{
     padding-top: 2vh;
     padding: 2vh 20vw 0 20vw;
     font-size: 17px;
-    font-weight: #9c9c9c;
+    color: var(--color-para);
     text-align: center;
     line-height: 1.6;
 }
@@ -37,7 +38,7 @@
 
 .service-card{
     padding: 3vw 2vw;
-    background: #f0f0f0;
+    background: var(--card-background);
     text-align: center;
     align-items: center;
     transition: all 500ms ease;
@@ -45,18 +46,19 @@
 }
 
 .service-card:hover{
-    background: #fff;
-    box-shadow: 0 10px 20px var(--box-shadow);
+    background: var(--card-background-hover);
+    box-shadow: 0 10px 20px var(--box-shadow-color);
 }
 
 .service-card h2{
     font-size: 20px;
     font-weight: 600;
     padding: 4vh 0 2vh 0;
+    color: var(--color-black);
 }
 
 .service-card p{
     line-height: 1.6;
-    color: #a1a1a1;
+    color: var(--card-color-para);
     padding: 1vh 0;
 }

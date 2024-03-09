@@ -1,0 +1,31 @@
+.portfolio-container{
+    padding: 2vw 0 5vw 0;
+}
+
+.portfolio-text h1{
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--color-black);
+}
+
+.p-text-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 5vh;
+}
+
+.p-text-container p{
+    font-size: 20px;
+    padding-top: 3vh;
+    font-weight: 600;
+    color: var(--color-para);
+}
+
+/* ======================== portfolio cards ====================== */
+
+.portfolio-cards{
+    display: flex;
+}
