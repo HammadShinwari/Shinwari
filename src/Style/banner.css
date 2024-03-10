@@ -74,4 +74,17 @@
 
 .b-image img{
     width: 430px;
+    animation: floatImage 2s linear infinite;
+}
+
+@keyframes floatImage{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-2rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }

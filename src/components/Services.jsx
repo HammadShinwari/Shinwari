@@ -19,7 +19,7 @@ function Services() {
         <div className="services-container">
 
             <div className="service-text">
-                <h1>Service Offers</h1>
+                <h1>Our Services</h1>
                 <p>Is give may shall likeness made yielding spirit a itself togeth created after sea is in beast beginning signs open god you're gathering ithe</p>
             </div>
 
@@ -45,7 +45,7 @@ function Services() {
 
                 <div className="service-card">
                     <img src={Service4} alt="" />
-                    <h2>SEO OPTIMIZE</h2>
+                    <h2>FREELANCING</h2>
                     <p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
                 </div>
 
