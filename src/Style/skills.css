@@ -1,0 +1,41 @@
+.skills-container{
+    padding: 5vw 0;
+}
+
+.skills-text{
+    text-align: center;
+}
+
+.skills-text h1{
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--color-black);
+}
+
+
+/* ============ skills images ============= */
+.skills-images{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.8rem;
+    padding: 4vw 8vw 0 8vw;
+}
+
+.skills-images img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.skills-images img:nth-child(1),
+.skills-images img:nth-child(2){
+    width: 90px;
+    height: 90px;
+}

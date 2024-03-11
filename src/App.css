@@ -79,12 +79,12 @@ h1, h2, h3, h4, h5, h6{
     /* ================ banner ============== */
 
     .banner-container{
-        padding: 6vw;
+        padding: 15vw;
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 5vw;
+        gap: 10vw;
     }
 
     .b-text-h1{
@@ -136,6 +136,23 @@ h1, h2, h3, h4, h5, h6{
         padding: 2vw;
     }
 
+    /* =================== skills =================== */
+
+    .skills-images{
+        padding-top: 6vw;
+    }
+
+    .skills-images img{
+        width: 65px;
+        height: 65px;
+    }
+
+    .skills-images img:nth-child(1),
+    .skills-images img:nth-child(2){
+        width: 75px;
+        height: 75px;
+    }
+
 }
 
 @media (max-width: 500px){
@@ -146,8 +163,8 @@ h1, h2, h3, h4, h5, h6{
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 10vw; 
-        gap: 10vw;
+        padding: 8vw; 
+        gap: 22vw;
     }
 
     .b-text-h3{
@@ -171,6 +188,7 @@ h1, h2, h3, h4, h5, h6{
 
     .about-container{
         padding: 15vw 10vw;
+        gap: 15vw;
     }
 
     .about-image img{
@@ -204,6 +222,28 @@ h1, h2, h3, h4, h5, h6{
 
     .service-card p{
         padding: 2vw 3vw 4vw 3vw;
+    }
+
+    /* =================== skills =================== */
+
+    .skills-container{
+        padding: 10vw 0;
+    }
+
+    .skills-text h1{
+        padding-bottom: 5vw;
+        font-size: 35px;
+    }
+
+    .skills-images img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .skills-images img:nth-child(1),
+    .skills-images img:nth-child(2){
+        width: 60px;
+        height: 60px;
     }
 
 }

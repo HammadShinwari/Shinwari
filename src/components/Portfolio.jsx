@@ -10,12 +10,6 @@ function Portfolio() {
 
             <div className="portfolio-text">
                 <h1>Portfolio</h1>
-                <div className="p-text-container">
-                    <p>All</p>
-                    <p>Html&css</p>
-                    <p>Javascript</p>
-                    <p>React js</p>
-                </div>
             </div>
 
             <div className="portfolio-cards">
