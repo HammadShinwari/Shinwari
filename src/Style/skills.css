@@ -1,5 +1,5 @@
 .skills-container{
-    padding: 5vw 0;
+    padding: 3vw 0;
 }
 
 .skills-text{
@@ -17,18 +17,18 @@
 
 /* ============ skills images ============= */
 .skills-images{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     justify-content: center;
     gap: 1.8rem;
-    padding: 4vw 8vw 0 8vw;
+    padding: 4vw 12vw;
 }
 
 .skills-images img{
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    border-radius: 2%;
     background-size: cover;
     background-position: center;
     cursor: pointer;
@@ -36,6 +36,29 @@
 
 .skills-images img:nth-child(1),
 .skills-images img:nth-child(2){
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
+}
+
+.skills-images > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70vh;
+    border: 2px solid #333333;
+    border-radius: 5px;
+}
+
+.skills-images > div h2{
+    padding-left: 3vh;
+}
+
+.skills-images > div > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills-images > div > div h3{
+    padding-right: 2vh;
 }
