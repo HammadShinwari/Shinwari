@@ -7,6 +7,7 @@ import About from './components/About';
 import Services from './components/Services';
 import Skills from './components/Skills';
 import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
 
 // style file import 
 import './App.css'
@@ -20,6 +21,7 @@ function App() {
       <Services />
       <Skills />
       <Portfolio />
+      <Contact />
     </>
   )
 }

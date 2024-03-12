@@ -1,5 +1,5 @@
 .skills-container{
-    padding: 3vw 0;
+    padding: 2vw 0 0 0;
 }
 
 .skills-text{
@@ -34,17 +34,12 @@
     cursor: pointer;
 }
 
-.skills-images img:nth-child(1),
-.skills-images img:nth-child(2){
-    width: 80px;
-    height: 80px;
-}
-
 .skills-images > div{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 70vh;
+    width: 100%;
+    height: 100%;
     border: 2px solid #333333;
     border-radius: 5px;
 }

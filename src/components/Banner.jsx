@@ -16,7 +16,7 @@ function Banner() {
 
             <div className="b-text">
                 <h3 className='b-text-h3'>Hello 👋</h3>
-                <h1 className='b-text-h1'>I am Hammad Shinwari</h1>
+                <h1 className='b-text-h1'>I am <span>Hammad Shinwari</span></h1>
                 <h2 className='b-text-h2'><span className='mulitText'>Passionate Frontend Developer</span></h2>
                 <div className="b-buttons">
                     <div className="btn-1">

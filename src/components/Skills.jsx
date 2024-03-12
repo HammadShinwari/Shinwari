@@ -1,19 +1,19 @@
-import React from 'react'
+import React from 'react';
 
 // style file link 
-import '../Style/skills.css'
+import '../Style/skills.css';
 
 // images link
-import htmlImg from '../images/html.webp'
+import htmlImg from '../images/html.webp';
 import cssImg from '../images/css.png';
-import jsImg from '../images/js.png'
-import reactImg from '../images/react.webp'
-import tailwandImg from '../images/tailwand.jpg'
-import firebaseImg from '../images/firebase.png'
-import githubImg from '../images/github.png'
-import gitImg from '../images/git.jpg'
-import bootstrapImg from '../images/bootstrap.jpeg'
-import vscodeImg from '../images/code.png'
+import jsImg from '../images/js.png';
+import reactImg from '../images/react.webp';
+import tailwandImg from '../images/tailwand.jpg';
+import firebaseImg from '../images/firebase.png';
+import githubImg from '../images/github.png';
+import gitImg from '../images/git.jpg';
+import bootstrapImg from '../images/bootstrap.jpeg';
+import vscodeImg from '../images/code.png';
 
 function Skills() {
   return (

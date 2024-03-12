@@ -23,6 +23,11 @@
     color: var(--color-black);
 }
 
+.b-text-h1 span{
+    color: var(--color-purple);
+    font-family: cursive;
+}
+
 .b-text-h2{
     font-weight: 600;
     font-size: 28px;
