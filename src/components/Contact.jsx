@@ -15,11 +15,9 @@ function Contact() {
 
             <div className="contact">
 
-                <div className="contact-text">
+                <div className="form">
 
-                    <div className="form">
-
-                        <div className="n-e">
+                    <div className="n-e">
 
                             <div className="name-div">
                                 <h3>Name</h3>
@@ -31,22 +29,20 @@ function Contact() {
                                 <input type='email' placeholder='Enter your email...' required/>
                             </div>
 
-                        </div>
+                    </div>
 
-                        <div className="subject">
+                    <div className="subject">
                             <h3>Subject</h3>
                             <input type="text" placeholder='Enter Subject...' required/>
-                        </div>
+                    </div>
 
-                        <div className="message">
+                    <div className="message">
                             <h3>Message</h3>
                             <textarea placeholder='Enter a Message...' className='textarea'></textarea>
-                        </div>
+                    </div>
 
-                        <div className="send-button">
+                    <div className="send-button">
                             <button>Send Message</button>
-                        </div>
-
                     </div>
 
                 </div>
