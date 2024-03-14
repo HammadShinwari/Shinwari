@@ -3,7 +3,8 @@ import React from 'react'
 // style file image
 import '../Style/contact.css'
 
-
+// icons 
+import { FaGithub, FaLinkedin, FaMailBulk, FaPhone } from 'react-icons/fa';
 
 function Contact() {
 
@@ -17,37 +18,21 @@ function Contact() {
 
             <div className="contact">
 
-                <form className="form">
+                <div className="github">
+                    <p><FaGithub className='icon'/> <a href="https://github.com/HammadShinwari33">Click Me</a> to open my github profile</p>
+                </div>
 
-                    <div className="n-e">
+                <div className="linkedin">
+                    <p><FaLinkedin className='icon'/> <a href="https://www.linkedin.com/in/hammad-shinwari-694124283/">Click Me</a> to open my linkedin profile</p>
+                </div>
 
-                            <div className="name-div">
-                                <h3>Name</h3>
-                                <input type='text' placeholder='Enter your name...' name='user_name' required/>
-                            </div>
+                <div className="phone">
+                    <p><FaPhone className='icon'/> 0300-3066377</p>
+                </div>
 
-                            <div className="email-div">
-                                <h3>Email address</h3>
-                                <input type='email' placeholder='Enter your email...' name='user_email' required/>
-                            </div>
-
-                    </div>
-
-                    <div className="subject">
-                            <h3>Subject</h3>
-                            <input type="text" placeholder='Enter Subject...' name='subject' required/>
-                    </div>
-
-                    <div className="message">
-                            <h3>Message</h3>
-                            <textarea placeholder='Enter a Message...' className='textarea' name='message'></textarea>
-                    </div>
-
-                    <div className="send-button">
-                            <button>Send Message</button>
-                    </div>
-
-                </form>
+                <div className="email">
+                    <p><FaMailBulk className='icon'/> <a href="">Click Me</a> to open my gmail account</p>
+                </div>
 
             </div>
 

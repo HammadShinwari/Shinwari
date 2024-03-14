@@ -79,6 +79,16 @@ h1, h2, h3, h4, h5, h6{
         width: 40vh;
     }
 
+    /* ================ contact ============== */
+
+    .icon{
+        font-size: 75px;
+    }
+
+    .contact p{
+        font-size: 25px;
+    }
+
 }
 
 @media (max-width: 850px){
@@ -156,30 +166,16 @@ h1, h2, h3, h4, h5, h6{
         width: 75vh;
     }
 
-}
-
-@media (max-width: 750px){
-
     /* ================ contact ============== */
 
-    .c-top-text h1{
-        font-size: 32px;
+    .contact p{
+        font-size: 20px;
     }
 
-    .n-e{
-        display: flex;
-        flex-direction: column;
+    .icon{
+        font-size: 50px;
     }
 
-    .n-e .name-div input{
-        width: 70vh;
-        height: 7vh;
-    }
-
-    .n-e .email-div input{
-        width: 70vh;
-        height: 7vh;
-    }
 }
 
 @media (max-width: 500px){
@@ -270,6 +266,30 @@ h1, h2, h3, h4, h5, h6{
         font-size: 4vh;
     }
 
+    /* ================ contact ============== */
+
+    .contact-container{
+        padding-bottom: 5vw;
+    }
+
+    .c-top-text h1{
+        font-size: 35px;
+    }
+
+    .contact{
+        padding: 5vw 2vh 50vw 2vh;
+        gap: 3vw;
+        height: 3vw;
+    }
+
+    .contact p{
+        font-size: 18px;
+    }
+
+    .icon{
+        font-size: 38px;
+    }
+
 }
 
 @media (max-width: 350px){
@@ -324,18 +344,11 @@ h1, h2, h3, h4, h5, h6{
     /* ================ contact ============== */
 
     .contact{
-        padding: 10vw 0;
+        padding-bottom: 60vw;
     }
 
-    .n-e .name-div input,
-    .n-e .email-div input{
-        width: 60vh;
-    }
-
-    .name-div,
-    .email-div,
-    .subject{
-        padding-bottom: 2vh;
+    .contact p{
+        font-size: 15px;
     }
 
 }

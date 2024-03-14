@@ -4,106 +4,47 @@
 
 .c-top-text h1{
     text-align: center;
-    font-size: 38px;
-    font-weight: 800;
-    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
 }
 
 /* ================ contact form ================ */
 
 .contact{
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 7vw;
-    padding-top: 4vw;
+    gap: 2vh;
+    padding: 4vw 10vw;
 }
 
-/* =============== form ============= */
-
-.n-e{
-    display: flex;
-    gap: 5vw;
-}
-
-.n-e .name-div input{
-    width: 50vh;
-    height: 6vh;
-    font-size: 17px;
-    padding-left: .8vh;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.n-e .name-div h3{
-    padding-bottom: 1vh;
-}
-
-.n-e .email-div input{
-    width: 50vh;
-    height: 6vh;
-    font-size: 17px;
-    padding-left: 1vh;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.n-e .email-div h3{
-    padding-bottom: 1vh;
-}
-
-.subject{
-    padding-top: 2vw;
-}
-
-.subject h3{
-    padding-bottom: 1vh;
-}
-
-.subject input{
+.github, .linkedin, .phone, .email{
     width: 100%;
-    height: 7vh;
-    font-size: 17px;
-    padding-left: 1vh;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    height: 8vh;
+    background: #c7c0c0;
+    align-items: center;
+    border-radius: 7px;
 }
 
-.message{
-    padding-top: 2vw;
+.github p, .linkedin p, .phone p, .email p{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
 }
 
-.message h3{
-    padding-bottom: 1vh;
+.github a, .linkedin a, .email a{
+    text-decoration: none;
+    color: rgb(67, 67, 245);
+    font-weight: 600;
 }
 
-.message textarea{
-    width: 100%;
-    height: 18vh;
-    font-size: 17px;
-    padding-left: .8vh;
-    padding-top: .8vh;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.send-button{
-    padding-top: 2vw;
-}
-
-.send-button button{
-    background-color: var(--color-purple);
-    border: 2px solid var(--color-purple);
-    border-radius: 5px;  
-    padding: 12px 35px;
+.icon{
     color: #fff;
-    font-weight: 800;
-    cursor: pointer;
-    transition: all 400ms ease-in-out;
-    font-size: 15px;
-}
-
-.send-button button:hover{
-    background: #fff;
-    color: #000;
+    padding: 2vh;
+    font-size: 50px;
+    vertical-align: middle;
+    background-color: #000;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
