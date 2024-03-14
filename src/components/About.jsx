@@ -20,8 +20,8 @@ function About() {
 
             <div className="about-text">
                 <h2>LET'S <br /> INTRODUCE ABOUT <br /> MYSELF</h2>
-                <p>Whose given. Were gathered. There first subdue greater. Bearing you Whales heaven midst their. Beast creepeth. Fish days. <br /> <br />
-                Is give may shall likeness made yielding spirit a itself together created after sea is in beast beginning signs open god you're gathering whose gathered cattle let. Creature whales fruit unto meat the life beginning all in under give two.</p>
+                <p>Hello to everyone. My name is Hammad Shinwari. I am currently learning web development course from saylani mass it training. <br /> <br />
+                I have a unique opportunity to showcase my growing expertise and knowledge in web development through my portfolio. With a deep understanding of HTML, CSS, Bootstrap, Tailwand css, Material UI, JavaScript, Firebase, and React Js.  I am well on my way to becoming a skilled and successful Mern stack developer.</p>
                 <div className="about-button">
                     <button>DOWNLOAD CV</button>
                 </div>

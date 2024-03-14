@@ -158,6 +158,30 @@ h1, h2, h3, h4, h5, h6{
 
 }
 
+@media (max-width: 750px){
+
+    /* ================ contact ============== */
+
+    .c-top-text h1{
+        font-size: 32px;
+    }
+
+    .n-e{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .n-e .name-div input{
+        width: 70vh;
+        height: 7vh;
+    }
+
+    .n-e .email-div input{
+        width: 70vh;
+        height: 7vh;
+    }
+}
+
 @media (max-width: 500px){
     
     /* ================ banner ============== */
@@ -295,6 +319,23 @@ h1, h2, h3, h4, h5, h6{
 
     .skills-images > div > div h3{
         font-size: 3.5vh;
+    }
+
+    /* ================ contact ============== */
+
+    .contact{
+        padding: 10vw 0;
+    }
+
+    .n-e .name-div input,
+    .n-e .email-div input{
+        width: 60vh;
+    }
+
+    .name-div,
+    .email-div,
+    .subject{
+        padding-bottom: 2vh;
     }
 
 }

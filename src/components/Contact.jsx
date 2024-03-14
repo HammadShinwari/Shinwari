@@ -4,7 +4,9 @@ import React from 'react'
 import '../Style/contact.css'
 
 
+
 function Contact() {
+
   return (
     <>
         <div className="contact-container">
@@ -15,37 +17,37 @@ function Contact() {
 
             <div className="contact">
 
-                <div className="form">
+                <form className="form">
 
                     <div className="n-e">
 
                             <div className="name-div">
                                 <h3>Name</h3>
-                                <input type='text' placeholder='Enter your name...' required/>
+                                <input type='text' placeholder='Enter your name...' name='user_name' required/>
                             </div>
 
                             <div className="email-div">
                                 <h3>Email address</h3>
-                                <input type='email' placeholder='Enter your email...' required/>
+                                <input type='email' placeholder='Enter your email...' name='user_email' required/>
                             </div>
 
                     </div>
 
                     <div className="subject">
                             <h3>Subject</h3>
-                            <input type="text" placeholder='Enter Subject...' required/>
+                            <input type="text" placeholder='Enter Subject...' name='subject' required/>
                     </div>
 
                     <div className="message">
                             <h3>Message</h3>
-                            <textarea placeholder='Enter a Message...' className='textarea'></textarea>
+                            <textarea placeholder='Enter a Message...' className='textarea' name='message'></textarea>
                     </div>
 
                     <div className="send-button">
                             <button>Send Message</button>
                     </div>
 
-                </div>
+                </form>
 
             </div>
 
