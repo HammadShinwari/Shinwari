@@ -3,9 +3,8 @@
 }
 
 .portfolio-text h1{
-    font-size: 40px;
-    font-weight: 800;
-    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 600;
     text-align: center;
     color: var(--color-black);
 }
@@ -14,4 +13,54 @@
 
 .portfolio-cards{
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+    padding-top: 5vw;
+}
+
+.portfolio-card{
+    background: var(--card-background);
+    border-radius: 8px;
+    padding-bottom: 2vw;
+    width: 50vh;
+}
+
+.portfolio-card img{
+    width: 50vh;
+    height: 35vh;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.portfolio-card h2{
+    font-size: 22px;
+    font-weight: 600;
+    padding: 2vh;
+}
+
+.portfolio-card p{
+    font-size: 17px;
+    padding: 0 2vh 4vh 2vh;
+}
+
+.portfolio-card .card-buttons{
+    padding-left: 2vh;
+}
+
+.portfolio-card .card-buttons a{
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    color: #000;
+    font-size: 17px;
+    transition: all 400ms ease-in;
+}
+
+.portfolio-card .card-buttons a:hover{
+    background: #000;
+    border: 2px solid #000;
+    color: #fff;
 }
