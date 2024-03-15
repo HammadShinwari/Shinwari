@@ -8,17 +8,7 @@ function End() {
     <>
         <div className="end-container">
             
-            <div className="linkedin">
-
-            </div>
-
-            <div className="github">
-
-            </div>
-
-            <div className="email">
-
-            </div>
+          <h3>@ 2024 ui-themes. All reserved by <span> Hammad Shinwari</span></h3>
 
         </div>
     </>

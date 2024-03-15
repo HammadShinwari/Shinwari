@@ -53,7 +53,7 @@ nav ul li a.active::after{
 
 @media (max-width: 769px){
     nav{
-        background: #24202c;
+        background: #b9b3b3;
     }
     nav ul{
         display: flex;
@@ -65,7 +65,7 @@ nav ul li a.active::after{
         right: -300px;
         width: 300px;
         height: 100vh;
-        background: #24202c;
+        background: #b9b3b3;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
         padding: 40px 0 0 10px;
         transition: all 400ms ease-in-out;
@@ -80,7 +80,7 @@ nav ul li a.active::after{
     }
 
     nav ul li a{
-        color: #fff;
+        color: #000;
     }
 
     #mobile{
@@ -90,7 +90,7 @@ nav ul li a.active::after{
     #mobile i{
         font-size: 24px;
         cursor: pointer;
-        color: #fff;
+        color: #000;
     }
 
 }

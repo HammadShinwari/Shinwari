@@ -1,0 +1,15 @@
+.end-container{
+    height: 8vh;
+    background: #e4e4e4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.end-container h3{
+    text-align: center;
+}
+
+.end-container h3 span{
+    color: var(--color-purple);
+}

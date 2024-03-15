@@ -11,13 +11,15 @@ import homebuilderImg from '../images/home-builder.jpeg';
 import netflixImg from '../images/netflix.jpeg';
 import bondiImg from '../images/bondi.jpeg';
 
-// javascript images 
+// javascript and react images 
 import codeEditorImg from '../images/code-editor.jpeg';
 import shinwariSocial from '../images/shinwarisocial.jpeg';
 import educationImg from '../images/education.jpeg';
 import snakeImg from '../images/snake-game.jpeg';
 import quizImg from '../images/quiz.jpeg';
 import adminImg from '../images/admin.jpeg';
+import movieSearchImg from '../images/movie-search.jpeg'
+import todoImg from '../images/todo.jpeg';
 
 function Portfolio() {
   return (
@@ -193,14 +195,14 @@ function Portfolio() {
               <div className="portfolio-card">
 
                 <div className="card-img">
-                  <img src={ecommerceUiImg} alt="" />
+                  <img src={todoImg} alt="" />
                 </div>
 
                 <div className="card-text">
-                  <h2>Calculator</h2>
-                  <p>This Project is made with HTML, CSS, and Javascript.</p>
+                  <h2>Todo App</h2>
+                  <p>This Project is made with HTML, CSS, and React-js.</p>
                   <div className="card-buttons">
-                    <a href="https://calculator-by-hammad.surge.sh/"  target="_blank">Live Demo</a>
+                    <a href="https://shopping-list-in-react-by-shinwari.netlify.app/"  target="_blank">Live Demo</a>
                   </div>
                 </div>
 
@@ -209,14 +211,14 @@ function Portfolio() {
               <div className="portfolio-card">
 
                 <div className="card-img">
-                  <img src={ecommerceUiImg} alt="" />
+                  <img src={movieSearchImg} alt="" />
                 </div>
 
                 <div className="card-text">
-                  <h2>Calculator</h2>
-                  <p>This Project is made with HTML, CSS, and Javascript.</p>
+                  <h2>MovieSearch App</h2>
+                  <p>This Project is made with HTML, CSS, and React-js.</p>
                   <div className="card-buttons">
-                    <a href="https://calculator-by-hammad.surge.sh/"  target="_blank">Live Demo</a>
+                    <a href="http://searching-movies-app.surge.sh/"  target="_blank">Live Demo</a>
                   </div>
                 </div>
 
