@@ -17,7 +17,7 @@ class Navbar extends Component {
         return (
             <>
                 <nav>
-                    <a href="index.html">SHINWARI</a>
+                    <h2><span>Shin</span>wari</h2>
                     <div>
                         <ul id='navbar' className={this.state.clicked ? "#navbar active" : "#navbar"}>
                             <li><a href="#" className='active'>Home</a></li>
@@ -37,4 +37,4 @@ class Navbar extends Component {
     }
 }
 
-export default Navbar
+export default Navbar;

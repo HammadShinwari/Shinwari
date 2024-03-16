@@ -7,6 +7,17 @@ nav{
     box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.1);
 }
 
+nav h2{
+    font-size: 27px;
+    font-family: cursive;
+    font-weight: 700;
+}
+
+nav h2 span{
+    font-family: cursive;
+    color: var(--color-purple);
+}
+
 nav ul{
     display: flex;
     align-items: center;
